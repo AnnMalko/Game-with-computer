@@ -1,0 +1,179 @@
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z2FtZSUyMHdpdGglMjBjb21wdXRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px;
+    margin-top: 70px;
+    background-color: #dad5da93;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#par {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 30px;
+    font-weight: 500;
+    background: #6b5e51af;
+    color: #fff;
+    ;
+}
+
+
+
+h3,
+h4,
+#input_field,
+button,
+p {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+h4 {
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+#input_field {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #dad5da93;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #6b5e51af;
+    color: #fff;
+}
+
+#user_attempts {
+
+    text-align: center;
+    background-color: #6b5e51af;
+    color: #fff;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+#number_attempts {
+
+    text-align: center;
+    background-color: #6b5e51af;
+    color: #fff;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#game_over {
+    display: none;
+    color: #fff;
+}
+
+#newGame {
+    display: none;
+}
+
+
+
+
+
+@media all and (max-width: 1300px) {
+    #container {
+        margin: 50px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    #container {
+        margin: 50px 50px 0 50px;
+
+    }
+
+    #par {
+        font-size: 40px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    #container {
+        padding: 50px 50px;
+    }
+
+    #par {
+        font-size: 20px;
+        padding: 30px 30px;
+    }
+
+    #input_field {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4,
+    p,
+    #user_attempts,
+    #number_attempts,
+    #input_field,
+    #btnNewGame,
+    #btn {
+        font-size: 15px;
+    }
+
+    button {
+        padding: 5px 10px;
+    }
+
+}
